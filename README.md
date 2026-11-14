@@ -17,21 +17,22 @@ El cliente VLC puede publicar un flujo hacia SRS y también reproducirlo. Se cap
 
 Estructura del repositorio
 
+```
 .
-├── docker-compose.yml      
+├── docker-compose.yml      # Orquesta ambos contenedores
 ├── servidor/
-│   └── srs.conf            
+│   └── srs.conf            # Configuración de SRS
 ├── cliente/
-│   ├── Dockerfile          
-│   └── videos/            
+│   ├── Dockerfile          # Imagen del cliente (VLC, FFmpeg, tshark)
+│   └── videos/             # Videos de prueba (no se versionan)
 ├── capturas/
-│   └── rtmp.pcap         
+│   └── rtmp.pcap           # Captura de tráfico
 ├── informe/
-│   ├── informe_tarea2.tex  
+│   ├── informe_tarea2.tex  # Informe (capítulos 1 y 2)
 │   ├── informe_tarea2.pdf
-│   └── img/               
+│   └── img/                # Figuras del informe
 └── README.md
-
+```
 
 Requisitos
 
