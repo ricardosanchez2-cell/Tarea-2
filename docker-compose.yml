@@ -1,0 +1,18 @@
+services:
+  srs:
+    image: ossrs/srs:5
+    container_name: srs
+    ports: ["1935:1935", "1985:1985", "8080:8080"]
+    volumes:
+      - ./servidor/srs.conf:/usr/local/srs/conf/docker.conf
+
+  vlc:
+    build: ./cliente
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    container_name: vlc
+    depends_on: [srs]
+    volumes:
+      - ./cliente/videos:/home/vlc/videos:Z
+      - ./capturas:/home/vlc/capturas:Z
