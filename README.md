@@ -19,18 +19,18 @@ Estructura del repositorio
 
 ```
 .
-├── docker-compose.yml      # Orquesta ambos contenedores
+├── docker-compose.yml     
 ├── servidor/
-│   └── srs.conf            # Configuración de SRS
+│   └── srs.conf           
 ├── cliente/
-│   ├── Dockerfile          # Imagen del cliente (VLC, FFmpeg, tshark)
-│   └── videos/             # Videos de prueba (no se versionan)
+│   ├── Dockerfile          
+│   └── videos/           
 ├── capturas/
-│   └── rtmp.pcap           # Captura de tráfico
+│   └── rtmp.pcap          
 ├── informe/
-│   ├── informe_tarea2.tex  # Informe (capítulos 1 y 2)
+│   ├── informe_tarea2.tex  
 │   ├── informe_tarea2.pdf
-│   └── img/                # Figuras del informe
+│   └── img/                
 └── README.md
 ```
 
