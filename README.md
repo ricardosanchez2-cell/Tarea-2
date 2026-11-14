@@ -138,7 +138,7 @@ Problemas conocidos
 
 Informe y video
 
-- Informe: `informe/informe_tarea2.pdf` (capítulos 1 y 2; el capítulo 3 se entrega en la Tarea 3).
+- Informe: `informe/informe_tarea2.pdf` (capítulos 1 y 2).
 - Video (máximo 8 minutos): me falta el enlace djkshlads.
 
 Referencias
